@@ -1,0 +1,9 @@
+version: '3'
+services:
+  backend:
+    build:
+      context: ./backend
+      restart: always
+      dockerfile: Dockerfile
+    ports:
+      - "7006:5000"

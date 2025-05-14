@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Миссия активирована</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            background: black;
+            color: #00ffcc;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .warning {
+            color: red;
+            font-size: 1.5em;
+            animation: blink 0.8s infinite;
+            margin-bottom: 20px;
+        }
+
+        .port {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+
+        .timer {
+            font-size: 2em;
+            animation: glitch 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+
+        @keyframes glitch {
+            0% { transform: translate(0); }
+            20% { transform: translate(-1px, 1px); }
+            40% { transform: translate(1px, -1px); }
+            60% { transform: translate(-2px, 2px); }
+            80% { transform: translate(2px, -2px); }
+            100% { transform: translate(0); }
+        }
+    </style>
+</head>
+<body>
+
+<div class="warning">⚠ СВЯЗЬ НЕСТАБИЛЬНА ⚠</div>
+
+<div class="port">
+    Порт миссии: <strong>{{ port }}</strong>
+</div>
+
+<div class="timer" id="timer">Осталось времени: {{ ttl }} сек.</div>
+
+<script>
+    let ttl = {{ ttl }};
+    const timerEl = document.getElementById("timer");
+
+    const countdown = setInterval(() => {
+        ttl--;
+        if (ttl <= 0) {
+            clearInterval(countdown);
+            timerEl.innerText = "ВРЕМЯ ИСТЕКЛО";
+            timerEl.style.color = "red";
+        } else {
+            timerEl.innerText = `Осталось времени: ${ttl} сек.`;
+        }
+    }, 1000);
+</script>
+
+</body>
+</html>

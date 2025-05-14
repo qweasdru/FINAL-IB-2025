@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block title %}Search Missions{% endblock %}
+{% block content %}
+<h2>Search GTA Missions</h2>
+<form method="POST">
+    <input name="term" placeholder="Enter mission keyword">
+    <button type="submit">🔎 Search</button>
+</form>
+<ul>
+{% for name, location in results %}
+    <li><strong>{{ name }}</strong> — {{ location }}</li>
+{% endfor %}
+</ul>
+
+<div id="dialogue-box">
+    <h3>📢 Conversations in Los Santos</h3>
+    {% for speaker, line in dialogues %}
+        <p><strong>{{ speaker }}:</strong> {{ line }}</p>
+    {% endfor %}
+</div>
+{% endblock %}

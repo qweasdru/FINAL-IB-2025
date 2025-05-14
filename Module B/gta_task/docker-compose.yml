@@ -1,0 +1,10 @@
+version: '3'
+services:
+  gta-challenge:
+    build: .
+    restart: always
+    ports:
+      - "7010:7010"
+    volumes:
+      - ./app:/app
+    restart: unless-stopped

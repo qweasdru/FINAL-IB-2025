@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    restart: always
+    ports:
+      - "7007:7007"
+    volumes:
+      - ./bot:/app
+    environment:
+      - FLASK_RUN_PORT=7007
+    command: python app.py

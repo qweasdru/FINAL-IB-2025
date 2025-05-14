@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  web:
+    build: ./web
+    ports:
+      - "9001:80"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./services:/services
+    restart: always

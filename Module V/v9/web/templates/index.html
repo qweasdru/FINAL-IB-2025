@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>BLACK ASTRA: ТЕРМИНАЛ</title>
+  
+
+<style>
+body {
+  background-color: black;
+  color: #00ffcc;
+  font-family: 'Courier New', monospace;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.terminal {
+  background: rgba(0, 0, 0, 0.95);
+  border: 2px solid #00ffcc;
+  box-shadow: 0 0 20px #00ffcc33;
+  padding: 30px;
+  width: 80%;
+  max-width: 800px;
+  height: 400px;
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  line-height: 1.5;
+  display: none;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: relative;
+}
+#warning {
+  display: none;
+  text-align: center;
+  font-size: 2em;
+  color: red;
+  margin-top: 20px;
+}
+.glitch, .shake, .blurred {
+  animation: glitch 0.3s infinite;
+}
+@keyframes glitch {
+  0% { transform: translate(0); }
+  20% { transform: translate(-2px, 2px); }
+  40% { transform: translate(2px, -2px); }
+  60% { transform: translate(-1px, 1px); }
+  80% { transform: translate(1px, -1px); }
+  100% { transform: translate(0); }
+}
+button {
+  padding: 15px 30px;
+  background: black;
+  border: 2px solid #00ffcc;
+  color: #00ffcc;
+  font-family: inherit;
+  font-size: 1.3em;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  margin-top: 40px;
+}
+button:hover {
+  background: #00ffcc;
+  color: black;
+}
+
+.error-glitch {
+  color: #ff4444;
+  font-weight: bold;
+}
+@keyframes flicker {
+  0% { opacity: 1; }
+  20% { opacity: 0.4; }
+  40% { opacity: 0.8; }
+  60% { opacity: 0.3; }
+  80% { opacity: 1; }
+  100% { opacity: 0.6; }
+}
+.flicker {
+  animation: flicker 0.15s infinite;
+}
+.invert-theme {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+@keyframes screenShake {
+  0% { transform: translate(0); }
+  20% { transform: translate(-5px, 5px); }
+  40% { transform: translate(5px, -5px); }
+  60% { transform: translate(-3px, 3px); }
+  80% { transform: translate(3px, -3px); }
+  100% { transform: translate(0); }
+}
+.screen-glitch {
+  animation: screenShake 0.3s infinite;
+  filter: blur(3px) brightness(0.8);
+}
+
+</style>
+
+
+
+</head>
+<body>
+  <div id="intro-button" style="text-align:center; margin-top: 20vh;">
+    <button onclick="startMessage()" style="padding: 20px 40px; font-size: 1.5em; font-family: 'Courier New'; background: black; color: #00ffcc; border: 2px solid #00ffcc; cursor: pointer;">
+      ПОЛУЧИТЬ СООБЩЕНИЕ
+    </button>
+  </div>
+
+  
+<div id="terminal-header" style="font-size: 1.3em; color: #00ffcc; margin-bottom: 10px; font-family: 'Courier New', monospace;">
+  BLACK ASTRA COMMAND SHELL
+</div>
+
+
+<div id="connection-lost" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-weight: bold;
+  color: red;
+  display: none;
+  z-index: 1000;
+  font-family: 'Courier New', monospace;
+  text-shadow: 0 0 10px red;
+">
+  CONNECTION LOST...
+</div>
+
+
+<div id="sudden-warning" style="
+  position: fixed;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ff0000;
+  display: none;
+  z-index: 999;
+  font-family: 'Courier New', monospace;
+  pointer-events: none;
+  text-shadow: 0 0 10px red;
+">
+  TEXT
+</div>
+
+<div class='terminal' id='terminal-text'></div>
+
+  <div id='warning' style='display:none; text-align:center; font-size:2em; color:red; margin-top:20px;'></div>
+
+  
+<div id="missions" style="display:none; text-align:center; margin-top: 30px;">
+  <p>Миссии активированы. Выберите одну:</p>
+  <div id="mission-buttons"></div>
+</div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const story = ["ЦЕНТР УПРАВЛЕНИЯ > СВЯЗЬ УСТАНОВЛЕНА", "КАПИТАН ЮРИЙ: ...Это Юрий... корабль \"Вера\"...", "КАПИТАН ЮРИЙ: Питание идёт от резервов. Мы вне протокола.", "КАПИТАН ЮРИЙ: Шесть миссий... ни одна не вернулась.", "КАПИТАН ЮРИЙ: Миссия 1: Искусственный интеллект начал действовать по своим законам.", "КАПИТАН ЮРИЙ: Миссия 2: Химера переписала ядро... оно стало чувствовать.", "КАПИТАН ЮРИЙ: Миссия 3: Мы получали сигналы... с выключенных маяков.", "!!! SIGNAL LOST !!!", "КАПИТАН ЮРИЙ: Миссия 4... █████████████████████", "КАПИТАН ЮРИЙ: Миссия 5: Система отображает экипаж, которого нет.", "!!! CONNECTION REFUSED !!!", "КАПИТАН ЮРИЙ: Миссия 6: Она проснулась... Она в ядре.", "!!! SYSTEM OVERRIDE DETECTED !!!", "КАПИТАН ЮРИЙ: Если вы слышите это — НЕ продолжайте.", "[ОШИБКА: НЕИЗВЕСТНАЯ СУЩНОСТЬ В СЕТИ]", "[... ОБРЫВ СВЯЗИ ...]"];
+  const terminal = document.getElementById("terminal-text");
+  const warning = document.getElementById("warning");
+  const missions = document.getElementById("missions");
+  const introButton = document.getElementById("intro-button");
+
+  let index = 0;
+  let charIndex = 0;
+  let cursor = document.createElement('span');
+  cursor.id = 'cursor';
+  cursor.textContent = '|';
+  terminal.appendChild(cursor);
+
+  function startMessage() {
+    introButton.style.display = "none";
+    terminal.textContent = "";
+    terminal.style.display = "block";
+    terminal.appendChild(cursor);
+    typeStory();
+  }
+
+  function randomGlitchChar(original) {
+    const glitches = ['█', '▓', '▒', '░', '<', '>', '?'];
+    return Math.random() < 0.02 ? glitches[Math.floor(Math.random() * glitches.length)] : original;
+  }
+
+  function typeStory() {
+    if (index >= story.length) {
+      setTimeout(showGlitchWarning, 1500);
+      return;
+    }
+    const line = story[index];
+    if (charIndex < line.length) {
+      const glitchedChar = randomGlitchChar(line[charIndex]);
+      if (line.includes("!!!") || line.includes("ERROR") || line.includes("SIGNAL") || line.includes("REFUSED")) {
+        terminal.classList.add("glitch", "shake", "blurred");
+        setTimeout(() => terminal.classList.remove("glitch", "shake", "blurred"), 1000);
+      }
+      cursor.remove();
+      
+      const span = document.createElement('span');
+      span.textContent = glitchedChar;
+      if (line.includes("!!!") || line.includes("ERROR") || line.includes("SIGNAL") || line.includes("REFUSED")) {
+        span.classList.add("error-glitch");
+        terminal.classList.add("glitch", "shake", "blurred", "flicker", "invert-theme");
+        setTimeout(() => {
+          terminal.classList.remove("glitch", "shake", "blurred", "flicker", "invert-theme");
+        }, 1000);
+      }
+      cursor.remove();
+      terminal.appendChild(span);
+      terminal.appendChild(cursor);
+    
+      terminal.appendChild(cursor);
+      terminal.scrollTop = terminal.scrollHeight;
+      charIndex++;
+      setTimeout(typeStory, 25);
+    } else {
+      cursor.remove();
+      terminal.textContent += "\n";
+      terminal.appendChild(cursor);
+      index++;
+      charIndex = 0;
+      setTimeout(typeStory, 300);
+    }
+  }
+
+  function showGlitchWarning() {
+    warning.style.display = "block";
+    terminal.classList.add("glitch", "shake", "blurred");
+    cursor.remove();
+    terminal.innerHTML += "\n\nСИСТЕМА ПЕРЕХВАЧЕНА";
+    terminal.scrollTop = terminal.scrollHeight;
+    setTimeout(() => {
+      terminal.classList.remove("glitch", "shake", "blurred");
+      externalThreat();
+    }, 2500);
+  }
+
+  function externalThreat() {
+    const threatLines = ["> ВНЕШНЕЕ ПОДКЛЮЧЕНИЕ ОБНАРУЖЕНО...", "> КАНАЛ ЗАХВАЧЕН █████████", "> МЫ ВИДИМ ВАС.", "> НЕ ВЗЛАМЫВАЙТЕ ФЛАГИ.", "> ЕСЛИ ПРОДОЛЖИТЕ — БУДЕТ ТОЛЬКО ХУЖЕ."];
+    let i = 0;
+    function typeThreat() {
+      if (i >= threatLines.length) {
+        setTimeout(() => {
+          missions.style.display = "block";
+          const btns = [1, 2, 3, 4, 5, 6].map(i => {
+            const b = document.createElement('button');
+            b.textContent = 'Миссия ' + i;
+            b.onclick = () => window.location.href = '/launch/' + i;
+            return b;
+          });
+          const holder = document.getElementById('mission-buttons');
+          holder.innerHTML = "";
+          btns.forEach(b => holder.appendChild(b));
+        }, 1000);
+        return;
+      }
+      terminal.innerHTML += "\n" + threatLines[i];
+      terminal.scrollTop = terminal.scrollHeight;
+      terminal.classList.add("glitch", "shake", "blurred");
+      setTimeout(() => {
+        terminal.classList.remove("glitch", "shake", "blurred");
+        i++;
+        setTimeout(typeThreat, 1000);
+      }, 600);
+    }
+    typeThreat();
+  }
+
+  // Мигающий курсор
+  setInterval(() => {
+    if (cursor.style.visibility === 'hidden') {
+      cursor.style.visibility = 'visible';
+    } else {
+      cursor.style.visibility = 'hidden';
+    }
+  }, 500);
+
+  
+  const header = document.getElementById("terminal-header");
+  const originalText = "BLACK ASTRA COMMAND SHELL";
+  const glitchChars = ['#', '%', '&', '$', '@', '*', '!', '?', '█', '▓', '░', '|'];
+  setInterval(() => {
+    if (!header) return;
+    let glitched = '';
+    for (let i = 0; i < originalText.length; i++) {
+      if (Math.random() < 0.1) {
+        glitched += glitchChars[Math.floor(Math.random() * glitchChars.length)];
+      } else {
+        glitched += originalText[i];
+      }
+    }
+    header.textContent = glitched;
+    setTimeout(() => {
+      header.textContent = originalText;
+    }, 250);
+  }, 1000);
+
+  
+  const connectionLost = document.getElementById("connection-lost");
+  function triggerConnectionLost() {
+    connectionLost.style.display = "block";
+    document.body.classList.add("screen-glitch");
+    setTimeout(() => {
+      connectionLost.style.display = "none";
+      document.body.classList.remove("screen-glitch");
+    }, 2000);
+  }
+  setInterval(() => {
+    if (Math.random() < 0.2) {
+      triggerConnectionLost();
+    }
+  }, 12000);
+
+  
+  const suddenWarning = document.getElementById("sudden-warning");
+  const warningMessages = [">> YOU ARE NOT ALONE", ">> WHAT HAVE YOU AWAKENED", ">> OBSERVER PRESENT", ">> MEMORY DUMP REQUESTED", ">> TOO LATE TO DISCONNECT", ">> WHO IS WATCHING?", ">> ВЫ НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ", ">> ᚠᚱᚢᛗ ᛏᚺᛖ ᚹᚺᛁᛏᛖ ᛞᚢᛋᛏ"];
+
+  function showScaryMessage() {
+    const msg = warningMessages[Math.floor(Math.random() * warningMessages.length)];
+    suddenWarning.textContent = msg;
+    suddenWarning.style.left = Math.floor(Math.random() * 70 + 10) + '%';
+    suddenWarning.style.top = Math.floor(Math.random() * 70 + 10) + '%';
+    suddenWarning.style.display = "block";
+    suddenWarning.style.opacity = 1;
+    suddenWarning.style.transform = "scale(1)";
+    suddenWarning.classList.add("flicker");
+
+    setTimeout(() => {
+      suddenWarning.style.opacity = 0;
+      suddenWarning.style.transform = "scale(2)";
+    }, 1500);
+
+    setTimeout(() => {
+      suddenWarning.style.display = "none";
+      suddenWarning.classList.remove("flicker");
+    }, 2500);
+  }
+
+  setInterval(() => {
+    if (Math.random() < 0.3) {
+      showScaryMessage();
+    }
+  }, 10000);
+
+  window.startMessage = startMessage;
+});
+</script>
+
+</body>

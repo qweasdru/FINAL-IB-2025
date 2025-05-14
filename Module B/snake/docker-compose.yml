@@ -1,0 +1,9 @@
+services:
+  snakegame:
+    build: .
+    restart: always
+    ports:
+      - "7008:7008"
+    volumes:
+      - ./bot:/app
+    command: python app.py

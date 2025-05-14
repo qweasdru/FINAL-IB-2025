@@ -1,0 +1,6 @@
+Service 1: blackastra{WpXTEiKjiv02Or4C}
+Service 2: blackastra{EYWCER7IWmY9gjNd}
+Service 3: blackastra{sRosEbgqKTkFZ6zJ}
+Service 4: blackastra{emVu1NRYzdUeHCxm}
+Service 5: blackastra{d9QBDcciZPmKZaCL}
+Service 6: blackastra{YuMzrQjxdrixooX7}

@@ -1,0 +1,1187 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "4ZLwxB59_CSXNV4cQc8nB",
+      "type": "ellipse",
+      "x": 397.34375,
+      "y": 136.56251525878906,
+      "width": 135.217041015625,
+      "height": 135.217041015625,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 383056291,
+      "version": 119,
+      "versionNonce": 578037613,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "GBDxGOftYg6C1rbg1N9mS"
+        },
+        {
+          "id": "Ja3CsT2kvN27bQCShqd3q",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210503941,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "GBDxGOftYg6C1rbg1N9mS",
+      "type": "text",
+      "x": 424.5358647273696,
+      "y": 166.86459244953758,
+      "width": 81.21992492675781,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": null,
+      "seed": 903163587,
+      "version": 35,
+      "versionNonce": 1607312099,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210494005,
+      "link": null,
+      "locked": false,
+      "text": "Бинарны\nй файл\n(Rust)",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "4ZLwxB59_CSXNV4cQc8nB",
+      "originalText": "Бинарный файл (Rust)",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "kxw2Sv5fNG1Fqa8HIhRv_",
+      "type": "rectangle",
+      "x": 392.95682714565993,
+      "y": -17.248375122603676,
+      "width": 156.64179123864125,
+      "height": 45.58984801357124,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 829851171,
+      "version": 95,
+      "versionNonce": 451580557,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Ja3CsT2kvN27bQCShqd3q",
+          "type": "arrow"
+        },
+        {
+          "type": "text",
+          "id": "5AkFvybzeaHpthDSSv9hH"
+        },
+        {
+          "id": "JT-V5LDCF7GeseVGPUTi4",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210526637,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "5AkFvybzeaHpthDSSv9hH",
+      "type": "text",
+      "x": 442.02776091195324,
+      "y": -6.953451115818055,
+      "width": 58.49992370605469,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4V",
+      "roundness": null,
+      "seed": 207431373,
+      "version": 7,
+      "versionNonce": 1440759661,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210518281,
+      "link": null,
+      "locked": false,
+      "text": "Этапы",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "kxw2Sv5fNG1Fqa8HIhRv_",
+      "originalText": "Этапы",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "Ja3CsT2kvN27bQCShqd3q",
+      "type": "arrow",
+      "x": 470.05238451882883,
+      "y": 132.45149549680343,
+      "width": 0.810522660695824,
+      "height": 91.72324262878993,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 305420195,
+      "version": 50,
+      "versionNonce": 1370927565,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210503942,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.810522660695824,
+          -91.72324262878993
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "4ZLwxB59_CSXNV4cQc8nB",
+        "focus": 0.0840670302719274,
+        "gap": 4.2921305284372355
+      },
+      "endBinding": {
+        "elementId": "kxw2Sv5fNG1Fqa8HIhRv_",
+        "focus": 0.02988637870483981,
+        "gap": 12.386779977045933
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "mZ4J0nBYvdAgbVKBX6Vel",
+      "type": "text",
+      "x": 488.9710969427601,
+      "y": 74.4748272777436,
+      "width": 77.91565440319397,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": null,
+      "seed": 1576175853,
+      "version": 60,
+      "versionNonce": 1489359363,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210514381,
+      "link": null,
+      "locked": false,
+      "text": "Запуск",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "Запуск",
+      "autoResize": false,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "iEmXtYMuZuFyz_CaOjjOE",
+      "type": "rectangle",
+      "x": 400.0703824150755,
+      "y": -185.32345179273753,
+      "width": 146.2670368162262,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 171903021,
+      "version": 150,
+      "versionNonce": 1515971907,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "JT-V5LDCF7GeseVGPUTi4",
+          "type": "arrow"
+        },
+        {
+          "type": "text",
+          "id": "xc9fjAfLZD0EOkBXFl0gq"
+        },
+        {
+          "id": "oHwtC7ffq1g0nK6lCwowr",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210577753,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "xc9fjAfLZD0EOkBXFl0gq",
+      "type": "text",
+      "x": 414.48396063764176,
+      "y": -180.32345179273753,
+      "width": 117.43988037109375,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a7V",
+      "roundness": null,
+      "seed": 153126093,
+      "version": 145,
+      "versionNonce": 981222093,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210545124,
+      "link": null,
+      "locked": false,
+      "text": "1. Найти\nресторан по\nфотографии\nизнутри",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "iEmXtYMuZuFyz_CaOjjOE",
+      "originalText": "1. Найти ресторан по фотографии изнутри",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "JT-V5LDCF7GeseVGPUTi4",
+      "type": "arrow",
+      "x": 473.4383520517829,
+      "y": -20.9098655649069,
+      "width": 2.720604423178031,
+      "height": 49.5484965283364,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a8",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1854699363,
+      "version": 166,
+      "versionNonce": 2081542019,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210541159,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          2.720604423178031,
+          -49.5484965283364
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "kxw2Sv5fNG1Fqa8HIhRv_",
+        "focus": 0.009030091877981795,
+        "gap": 10.44153363706468
+      },
+      "endBinding": {
+        "elementId": "iEmXtYMuZuFyz_CaOjjOE",
+        "focus": -0.08206506688814201,
+        "gap": 7.933672413662066
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "b70a3bxq1w4HLGF2ONabr",
+      "type": "rectangle",
+      "x": 392.0348083792634,
+      "y": -370.59905553603846,
+      "width": 165.79601471379033,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a9",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 226079629,
+      "version": 140,
+      "versionNonce": 936538058,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "ckeXe5igTr-IMqcfP6sqW"
+        },
+        {
+          "id": "oHwtC7ffq1g0nK6lCwowr",
+          "type": "arrow"
+        },
+        {
+          "id": "CQ4qIVH75JMORNEbib6QU",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746371998907,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "ckeXe5igTr-IMqcfP6sqW",
+      "type": "text",
+      "x": 404.4928819593031,
+      "y": -365.59905553603846,
+      "width": 140.87986755371094,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aA",
+      "roundness": null,
+      "seed": 801981165,
+      "version": 169,
+      "versionNonce": 675669642,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746371998907,
+      "link": null,
+      "locked": false,
+      "text": "2. Найти имя\nдевушки в\nгруппе по\nобрывку песни",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "b70a3bxq1w4HLGF2ONabr",
+      "originalText": "2. Найти имя девушки в группе по обрывку песни",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "oHwtC7ffq1g0nK6lCwowr",
+      "type": "arrow",
+      "x": 469.44143094766156,
+      "y": -189.73694531109936,
+      "width": 3.054780904159088,
+      "height": 66.93099090098735,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aB",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1784360291,
+      "version": 107,
+      "versionNonce": 278693194,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746371998908,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -3.054780904159088,
+          -66.93099090098735
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "iEmXtYMuZuFyz_CaOjjOE",
+        "focus": -0.019599339872821198,
+        "gap": 7.208946963836269
+      },
+      "endBinding": {
+        "elementId": "b70a3bxq1w4HLGF2ONabr",
+        "focus": 0.13193860874441657,
+        "gap": 6.925879151224876
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "22RdaJQETnbRXwRLmxj7K",
+      "type": "rectangle",
+      "x": 386.1525202759609,
+      "y": -603.1736273848301,
+      "width": 184.64328626911606,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aC",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 184915501,
+      "version": 154,
+      "versionNonce": 486796045,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "cNjP1a6YiDEmuZXaEfK1Y"
+        },
+        {
+          "id": "CQ4qIVH75JMORNEbib6QU",
+          "type": "arrow"
+        },
+        {
+          "id": "MkqrreR2achnrcO6IU3S7",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210642406,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "cNjP1a6YiDEmuZXaEfK1Y",
+      "type": "text",
+      "x": 391.44423329577285,
+      "y": -598.1736273848301,
+      "width": 174.0598602294922,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aD",
+      "roundness": null,
+      "seed": 218926243,
+      "version": 204,
+      "versionNonce": 1871492323,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210618214,
+      "link": null,
+      "locked": false,
+      "text": "3. Найти название\nтранспортной\nсистемы у\nпобережья\nКалифорнии по\nзаписи с вокзала",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "22RdaJQETnbRXwRLmxj7K",
+      "originalText": "3. Найти название транспортной системы у побережья Калифорнии по записи с вокзала",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "CQ4qIVH75JMORNEbib6QU",
+      "type": "arrow",
+      "x": 474.96660219600045,
+      "y": -377.97862838713894,
+      "width": 3.818690885307717,
+      "height": 58.844715947376926,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aE",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1157679213,
+      "version": 61,
+      "versionNonce": 1513180170,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746371998908,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          3.818690885307717,
+          -58.844715947376926
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "b70a3bxq1w4HLGF2ONabr",
+        "focus": -0.04752265682502654,
+        "gap": 12.766523732368341
+      },
+      "endBinding": {
+        "elementId": "22RdaJQETnbRXwRLmxj7K",
+        "focus": -0.05384448532059491,
+        "gap": 9.61787125552047
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "rjoQgTOgn9jitpHiQCHlt",
+      "type": "rectangle",
+      "x": 389.6562123902929,
+      "y": -761.412654502089,
+      "width": 189.5638574993793,
+      "height": 110,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aF",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1712920611,
+      "version": 70,
+      "versionNonce": 1614335843,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "BdXfuua4srLVyBG9Vfxsw"
+        },
+        {
+          "id": "MkqrreR2achnrcO6IU3S7",
+          "type": "arrow"
+        },
+        {
+          "id": "VCip3Fvu1DgYq7l8hWeSj",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210691246,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "BdXfuua4srLVyBG9Vfxsw",
+      "type": "text",
+      "x": 397.6382143821701,
+      "y": -756.412654502089,
+      "width": 173.599853515625,
+      "height": 100,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aG",
+      "roundness": null,
+      "seed": 1899948717,
+      "version": 70,
+      "versionNonce": 346113763,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210662752,
+      "link": null,
+      "locked": false,
+      "text": "4. Найти название\nресторана по\nтуманному\nописанию ",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "rjoQgTOgn9jitpHiQCHlt",
+      "originalText": "4. Найти название ресторана по туманному описанию ",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "MkqrreR2achnrcO6IU3S7",
+      "type": "arrow",
+      "x": 483.8505009755427,
+      "y": -609.5770030617252,
+      "width": 1.1752339923268664,
+      "height": 54.33530772322786,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aH",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1379058189,
+      "version": 47,
+      "versionNonce": 1489830253,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210642406,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1.1752339923268664,
+          -54.33530772322786
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "22RdaJQETnbRXwRLmxj7K",
+        "focus": 0.03729314239279404,
+        "gap": 6.403375676895166
+      },
+      "endBinding": {
+        "elementId": "rjoQgTOgn9jitpHiQCHlt",
+        "focus": -0.01857043138044211,
+        "gap": 12.500343717135934
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "1O2lqvMHiTX3DEiF7IR2E",
+      "type": "rectangle",
+      "x": 398.5637196455442,
+      "y": -1044.2042664288529,
+      "width": 163.55496498552054,
+      "height": 210,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aI",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1127882435,
+      "version": 138,
+      "versionNonce": 1726150339,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "muqB_kqIVyQuKhX7UH6FR"
+        },
+        {
+          "id": "VCip3Fvu1DgYq7l8hWeSj",
+          "type": "arrow"
+        },
+        {
+          "id": "232AzXY_p5DEnItXSWfwx",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210719807,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "muqB_kqIVyQuKhX7UH6FR",
+      "type": "text",
+      "x": 410.09127080285526,
+      "y": -1039.2042664288529,
+      "width": 140.49986267089844,
+      "height": 200,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aJ",
+      "roundness": null,
+      "seed": 1587092941,
+      "version": 148,
+      "versionNonce": 478780803,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210687826,
+      "link": null,
+      "locked": false,
+      "text": "5. Найти\nназвание\nгорода по\nтуманному\nописанию и\nфотографии\nпостамента\nпосреди улицы",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "1O2lqvMHiTX3DEiF7IR2E",
+      "originalText": "5. Найти название города по туманному описанию и фотографии постамента посреди улицы",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "VCip3Fvu1DgYq7l8hWeSj",
+      "type": "arrow",
+      "x": 483.608902188491,
+      "y": -770.1335297062192,
+      "width": 1.636560713440531,
+      "height": 56.44408424772382,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aK",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 292463245,
+      "version": 50,
+      "versionNonce": 1406069507,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210691246,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -1.636560713440531,
+          -56.44408424772382
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "rjoQgTOgn9jitpHiQCHlt",
+        "focus": 0.010565920934443827,
+        "gap": 8.720875204130152
+      },
+      "endBinding": {
+        "elementId": "1O2lqvMHiTX3DEiF7IR2E",
+        "focus": 0.01926860589830718,
+        "gap": 7.626652474909861
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "m1uObj0Hn37DqZkYHv0nG",
+      "type": "rectangle",
+      "x": 376.28927527968006,
+      "y": -1219.1051881841822,
+      "width": 231.03748188529926,
+      "height": 85,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aL",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1103510573,
+      "version": 87,
+      "versionNonce": 1659030339,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "Yy_xN0KkgjYGrOKYuG2TU"
+        },
+        {
+          "id": "232AzXY_p5DEnItXSWfwx",
+          "type": "arrow"
+        },
+        {
+          "id": "xZe6AqCswri0x9JYc84gx",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746210726847,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "Yy_xN0KkgjYGrOKYuG2TU",
+      "type": "text",
+      "x": 392.5381187613922,
+      "y": -1214.1051881841822,
+      "width": 198.539794921875,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aM",
+      "roundness": null,
+      "seed": 1313496653,
+      "version": 69,
+      "versionNonce": 680621475,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210717373,
+      "link": null,
+      "locked": false,
+      "text": "6. Найти гору по\nфотографии вида со\nсмотровой площадки",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "m1uObj0Hn37DqZkYHv0nG",
+      "originalText": "6. Найти гору по фотографии вида со смотровой площадки",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "232AzXY_p5DEnItXSWfwx",
+      "type": "arrow",
+      "x": 477.51300429279513,
+      "y": -1052.5077883006143,
+      "width": 0.23061702400389095,
+      "height": 71.20589061161945,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aN",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1571883725,
+      "version": 52,
+      "versionNonce": 92087907,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210719807,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -0.23061702400389095,
+          -71.20589061161945
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "1O2lqvMHiTX3DEiF7IR2E",
+        "focus": -0.029972128380212917,
+        "gap": 8.303521871761404
+      },
+      "endBinding": {
+        "elementId": "m1uObj0Hn37DqZkYHv0nG",
+        "focus": 0.12707409338475184,
+        "gap": 10.391509271948507
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "xZe6AqCswri0x9JYc84gx",
+      "type": "arrow",
+      "x": 488.51844531915356,
+      "y": -1234.1525783080135,
+      "width": 0.4723084841614309,
+      "height": 69.09706775057043,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aO",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 339827939,
+      "version": 92,
+      "versionNonce": 1783871395,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210726846,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.4723084841614309,
+          -69.09706775057043
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "m1uObj0Hn37DqZkYHv0nG",
+        "focus": -0.031801712040181514,
+        "gap": 15.047390123831292
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "-NY7IqourifOBNH2C2v11",
+      "type": "rectangle",
+      "x": 351.4446349951003,
+      "y": -1397.938206654091,
+      "width": 283.7581924211821,
+      "height": 82.03560026093669,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aP",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 185362637,
+      "version": 97,
+      "versionNonce": 1713987523,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "yeYqOMUAdZXQ7amG5cfe5"
+        }
+      ],
+      "updated": 1746210731625,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "yeYqOMUAdZXQ7amG5cfe5",
+      "type": "text",
+      "x": 392.63382031701946,
+      "y": -1381.9204065236227,
+      "width": 201.37982177734375,
+      "height": 50,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "aQ",
+      "roundness": null,
+      "seed": 1582476173,
+      "version": 56,
+      "versionNonce": 1257568963,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1746210741505,
+      "link": null,
+      "locked": false,
+      "text": "7. Конец. Посмотреть\nзавершение сюжета",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "-NY7IqourifOBNH2C2v11",
+      "originalText": "7. Конец. Посмотреть завершение сюжета",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

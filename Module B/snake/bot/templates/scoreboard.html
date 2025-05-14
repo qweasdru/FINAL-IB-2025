@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scoreboard</title>
+</head>
+<body>
+  <h1>🏆 Scoreboard</h1>
+  <ul>
+    {% for entry in scores %}
+      <li>{{ entry.name | safe }} - {{ entry.score }}</li>
+    {% endfor %}
+  </ul>
+  <a href="/snake">Play Again</a>
+</body>
+</html>

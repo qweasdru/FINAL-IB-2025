@@ -1,0 +1,26 @@
+{% extends "layout.html" %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+<h1>Welcome to Los Santos</h1>
+{% if user %}
+    <p style="text-align:center;">Hello, {{ user }}! Choose your mission.</p>
+{% else %}
+    <form method="POST" action="/login">
+        <input name="username" placeholder="Username">
+        <input name="password" placeholder="Password" type="password">
+        <button type="submit">🚗 Login</button>
+    </form>
+{% endif %}
+
+<div id="dialogue-box">
+    <h3>📢 Conversations in Los Santos</h3>
+    {% for speaker, line in dialogues %}
+        <p><strong>{{ speaker }}:</strong> {{ line }}</p>
+    {% endfor %}
+</div>
+
+<div class="map">
+    <h3>🗺️ Map of Los Santos</h3>
+    <img src="https://i.imgur.com/M7kP1vG.jpg" alt="Los Santos Map">
+</div>
+{% endblock %}

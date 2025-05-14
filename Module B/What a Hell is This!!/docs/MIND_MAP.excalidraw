@@ -1,0 +1,346 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "OVkgBIEhTCOFaYvztBAdR",
+      "type": "rectangle",
+      "x": 464,
+      "y": 212,
+      "width": 250,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2018103645,
+      "version": 144,
+      "versionNonce": 1152738227,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "fAKs2L6Dy-whkmFfSY1sh"
+        },
+        {
+          "id": "wEbHiSesvlTMH9cC5opvW",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746373642468,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "fAKs2L6Dy-whkmFfSY1sh",
+      "type": "text",
+      "x": 486.4901123046875,
+      "y": 254.5,
+      "width": 205.019775390625,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1974260275,
+      "version": 142,
+      "versionNonce": 1762095741,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1746373636987,
+      "link": null,
+      "locked": false,
+      "text": "Текст стихотворения\n\"Ворон\" в русском\nпереводе Зенкевича",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "OVkgBIEhTCOFaYvztBAdR",
+      "originalText": "Текст стихотворения \"Ворон\" в русском переводе Зенкевича",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "wEbHiSesvlTMH9cC5opvW",
+      "type": "arrow",
+      "x": 586.5001983642578,
+      "y": 196.0000228881836,
+      "width": 1.66656494140625,
+      "height": 89.16667938232422,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a2",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 73447229,
+      "version": 49,
+      "versionNonce": 1227660819,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1746373642468,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          1.66656494140625,
+          -89.16667938232422
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "OVkgBIEhTCOFaYvztBAdR",
+        "focus": -0.033946606236172676,
+        "gap": 15.999977111816406
+      },
+      "endBinding": null,
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    },
+    {
+      "id": "ZI6Fs7myqXSKVxburmKNX",
+      "type": "rectangle",
+      "x": 455.66676330566406,
+      "y": -13.166656494140625,
+      "width": 272.5000762939453,
+      "height": 107.5,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a3",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 425743091,
+      "version": 104,
+      "versionNonce": 195976637,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "2NMIWeNcYuhlW2WBdwZ0s"
+        },
+        {
+          "id": "RMmuF6pW_9eTFDsVijG0J",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1746373673844,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "2NMIWeNcYuhlW2WBdwZ0s",
+      "type": "text",
+      "x": 470.7269058227539,
+      "y": 3.083343505859375,
+      "width": 242.37979125976562,
+      "height": 75,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a4",
+      "roundness": null,
+      "seed": 946669843,
+      "version": 109,
+      "versionNonce": 649705011,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1746373667987,
+      "link": null,
+      "locked": false,
+      "text": "Преобразуем реальный\nфлаг в zero-width. берём\nфальшивый флаг",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "ZI6Fs7myqXSKVxburmKNX",
+      "originalText": "Преобразуем реальный флаг в zero-width. берём фальшивый флаг",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "dJOb7baIl2yBOWyy5gNlA",
+      "type": "rectangle",
+      "x": 479.83348083496094,
+      "y": -258.99999618530273,
+      "width": 238.33335876464844,
+      "height": 160,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5",
+      "roundness": {
+        "type": 3
+      },
+      "seed": 2001864051,
+      "version": 115,
+      "versionNonce": 1347879069,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "RMmuF6pW_9eTFDsVijG0J",
+          "type": "arrow"
+        },
+        {
+          "type": "text",
+          "id": "jX-X5wmhi0ScQuDCypz0U"
+        }
+      ],
+      "updated": 1746373705181,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "jX-X5wmhi0ScQuDCypz0U",
+      "type": "text",
+      "x": 491.7402648925781,
+      "y": -253.99999618530273,
+      "width": 214.51979064941406,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a5V",
+      "roundness": null,
+      "seed": 1114318749,
+      "version": 177,
+      "versionNonce": 1514595581,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1746373705182,
+      "link": null,
+      "locked": false,
+      "text": "Равномерно\nперемешиваем\nфальшивый флаг с\nтекстом, шумом (zero-\nwidth), и реальным\nфлагом",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "center",
+      "verticalAlign": "middle",
+      "containerId": "dJOb7baIl2yBOWyy5gNlA",
+      "originalText": "Равномерно перемешиваем фальшивый флаг с текстом, шумом (zero-width), и реальным флагом",
+      "autoResize": true,
+      "lineHeight": 1.25
+    },
+    {
+      "id": "RMmuF6pW_9eTFDsVijG0J",
+      "type": "arrow",
+      "x": 594.4397495690936,
+      "y": -15.086831662699858,
+      "width": 2.6009047773484326,
+      "height": 82.03827069817675,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a6",
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2096629373,
+      "version": 105,
+      "versionNonce": 2038119773,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1746373705182,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -2.6009047773484326,
+          -82.03827069817675
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "ZI6Fs7myqXSKVxburmKNX",
+        "focus": 0.0316731565819334,
+        "gap": 5
+      },
+      "endBinding": {
+        "elementId": "dJOb7baIl2yBOWyy5gNlA",
+        "focus": 0.07878833341306186,
+        "gap": 3.3333587646484375
+      },
+      "startArrowhead": null,
+      "endArrowhead": "arrow",
+      "elbowed": false
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

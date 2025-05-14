@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}GTA V Challenge{% endblock %}</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/game">🎮 Game</a>
+            <a href="/">🏠 Home</a>
+            <a href="/search">🔍 Missions</a>
+            <a href="/flag">🎯 Flag</a>
+            {% if user %}
+                <a href="/logout">🚪 Logout ({{ user }})</a>
+            {% endif %}
+        </nav>
+    </header>
+    <main>
+        {% block content %}{% endblock %}
+    </main>
+    <footer>
+        <p>🎮 GTA V Hack Challenge &copy; Los Santos Underground</p>
+    </footer>
+</body>
+</html>
