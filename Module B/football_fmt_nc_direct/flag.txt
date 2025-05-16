@@ -1,0 +1,1 @@
+flag{format_strings_score_goals}

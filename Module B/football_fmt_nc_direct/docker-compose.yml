@@ -1,0 +1,7 @@
+
+version: '3'
+services:
+  football_fmt:
+    build: .
+    ports:
+      - "1338:1338"
